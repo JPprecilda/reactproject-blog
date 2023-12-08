@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Quicksand';
+  background-color:  #eeeee4;
+}
+
+.navbar{
+  display: flex;
+  margin: 0 auto;
+  padding: 40px 40px;
+  background-color: #eeeee4;
+  border-bottom: 1px solid #fffff5;
+  color: gray;
+  text-align: center;
+  max-width: 150vh;
+}
+
+.navbar .links{
+  display: inline;
+  margin: 0 auto;
+}
+  .navbar .links a{
+    font-size: 30px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: gray;
+  }
+  .navbar .links a:hover{
+    color: red;
+    font-weight: bolder;
+    transition: 0.5;
+  }
+.navbar h1{
+  margin: 0 auto;
+  margin-right: auto;
+  font-size: 40px;
+}
+.navbar h1:hover{
+ color: red;
+ opacity: 0.5;
+ cursor: pointer;
+ transition: 0.4s;
+ font-weight: bolder;
+}
+.content{
+  max-width: 150vh;
+  height: 70vh;
+  margin: 40px auto;
+  background-color: #f8f8f4;
+  box-shadow: 0 0 10px 1px gray;
+  border-radius: 15px;
+}
+
+.home{
+  position: relative;
+  top: 50px;
+}
+.blog-preview{
+  margin: 20px 100px;
+  padding: 20px 10px;
+  border-bottom: 1px solid gray;
+}
+.blog-preview:hover{
+  box-shadow: 0 1px 5px rgba(0,0,0,1);
+  cursor: pointer;
+}
+.blog-preview h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 5px;
+}
+.blog-preview p{
+  font-size: 20px;
+}
+.blog-list{
+  padding: 0 20px;
+}
+
