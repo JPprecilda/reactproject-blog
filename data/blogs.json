@@ -1,0 +1,22 @@
+{
+    "blogs":[
+        {
+            "title": "My First Blog",
+            "body": "The quick brown fox jumps over the lazy fat dog",
+            "author": "Jaypee",
+            "id": 1
+        },
+        {
+            "title": "My Second Blog",
+            "body": "The quick brown fox jumps over the lazy fat dog",
+            "author": "Sarah",
+            "id": 2
+        },
+        {
+            "title": "My Thirs Blog",
+            "body": "The quick brown fox jumps over the lazy fat dog",
+            "author": "Jane",
+            "id": 3
+        }
+    ]
+}
